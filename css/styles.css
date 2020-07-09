@@ -1,0 +1,230 @@
+body{
+  margin:0;
+  font-family: 'Montserrat', sans-serif;
+  color: #F3F4F5;
+  background-color: #191818;
+
+
+}
+#main{
+  text-align: center;
+}
+/*LAX TEXT*/
+.lax{
+  display: inline-block;
+  margin: 100px 0 80px;
+  font-weight: 800;
+  font-size: 200px;
+  transform: rotate(90deg);
+}
+.laxPara{
+  font-weight:600;
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+.laxPara1{
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+/*OOHH AHHH SECTION*/
+.mid{
+  position: relative;
+
+}
+.oh{
+  color: rgb(53, 213, 229);
+  font-size: 110px;
+  margin:200px 0 20px 150px;
+  z-index: 1;
+}
+.ah{
+  color: rgb(237, 36, 113);
+  font-size: 110px;
+  margin:100px 150px 20px 0;
+  z-index: 1;
+  padding-left: 900px;
+}
+/*Oh-Circles*/
+
+.ohcircle1{
+  position: absolute;
+  background-color: rgb(237, 36, 113);
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  left:200px;
+  bottom: 5px;
+  top:90px;
+}
+.ohcircle2{
+  position: absolute;
+  background-color:rgb(237, 217, 67);
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  left:120px;
+  top:180px;
+}
+.ohcircle3{
+  position: absolute;
+  background-color: rgb(53, 213, 229);
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  left:300px;
+  top:200px;
+}
+/*Ah-Circles*/
+.ahcircle1{
+  position: absolute;
+  background-color: rgb(237, 217, 67);
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+  right:320px;
+  bottom: 5px;
+  top:200px;
+}
+.ahcircle2{
+  position: absolute;
+  background-color: rgb(53, 213, 229);
+  width: 130px;
+  height: 130px;
+  border-radius: 100%;
+  right:100px;
+  top:250px;
+}
+.ahcircle3{
+  position: absolute;
+  background-color:rgb(237, 36, 113);
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+  right:300px;
+  top:380px;
+}
+.crazy-text{
+  margin-top: 200px;
+  text-align: center;
+  font-weight:600;
+  font-size: 50px;
+  color:#5ee5d5;
+}
+
+/*Whee section*/
+.whee{
+  text-align: center;
+  position: relative;
+  font-weight: 800;
+  font-size: 120px;
+  z-index: 1;
+}
+/* whee squares */
+.square1{
+  position: absolute;
+  background-color:rgb(237, 36, 113);
+  width: 80px;
+  height: 80px;
+  right:450px;
+  bottom: 20px;
+  transform: rotate(40deg);
+}
+.square2{
+  position: absolute;
+  background-color:rgb(53, 213, 229);
+  width: 40px;
+  height: 40px;
+  right:400px;
+  bottom:90px;
+  transform: rotate(260deg);
+}
+.square3{
+  position: absolute;
+  background-color:rgb(237, 36, 113);
+  width: 80px;
+  height: 80px;
+  right:300px;
+  top: 100px;
+  transform: rotate(40deg);
+}
+.square4{
+  position: absolute;
+  background-color: rgb(237, 217, 67);
+  width: 30px;
+  height: 30px;
+  right:350px;
+  bottom: 100px;
+  transform: rotate(40deg);
+}
+.square5{
+  position: absolute;
+  background-color:rgb(53, 213, 229);
+  width: 80px;
+  height: 80px;
+  right:300px;
+  bottom: 100px;
+  transform: rotate(40deg);
+}
+.square6{
+  position: absolute;
+  background-color:rgb(237, 36, 113);
+  width: 30px;
+  height: 30px;
+  right:250px;
+  bottom: 100px;
+  transform: rotate(40deg);
+}
+.square7{
+  position: absolute;
+  background-color: rgb(237, 217, 67);
+  width: 40px;
+  height: 40px;
+  right:150px;
+  top: 100px;
+  bottom: 100px;
+  transform: rotate(-20deg);
+}
+.square8{
+  position: absolute;
+  background-color:rgb(237, 36, 113);
+  width: 70px;
+  height: 70px;
+  right:100px;
+  bottom: 100px;
+  transform: rotate(40deg);
+}
+
+/* footer section */
+ .footer{
+  text-align: center;
+  padding: 200px 0;
+
+}
+.footer-text{
+  width: 55%;
+  margin: 0 auto;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+/* button */
+.btn{
+  margin-top: 50px;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  padding: 20px 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  color: #000;
+  background-image: url('button-bg.jpg');
+  background-size: cover;
+
+}
+.btn:hover{
+  background: white;
+  cursor: pointer;
+}
